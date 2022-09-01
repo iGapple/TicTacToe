@@ -14,7 +14,16 @@
     align-items: center;
     gap: 1rem;
   }
+  #square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 30px;
+    display: grid;
+}
+.cell {
   
+}
   .board {
     width: 320px;
     height: 320px;
