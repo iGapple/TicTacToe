@@ -1,14 +1,103 @@
 //start of declarations
 var usr = "circle";
-var cell1 = document.getElementById("cell1")
-var cell2 = document.getElementById("cell2")
-var cell3 = document.getElementById("cell3")
-var cell4 = document.getElementById("cell4")
-var cell5 = document.getElementById("cell5")
-var cell6 = document.getElementById("cell6")
-var cell7 = document.getElementById("cell7")
-var cell8 = document.getElementById("cell8")
-var cell9 = document.getElementById("cell9")
-let user = document.getElementById("TIC");
-let cells = [cell1, cell2, cell3, cell4, cell5, cell6, cell7, cell8, cell9];
-//end of declarations
+var cell1 = document.getElementById("cell1");
+var cell2 = document.getElementById("cell2");
+var cell3 = document.getElementById("cell3");
+var cell4 = document.getElementById("cell4");
+var cell5 = document.getElementById("cell5");
+var cell6 = document.getElementById("cell6");
+var cell7 = document.getElementById("cell7");
+var cell8 = document.getElementById("cell8");
+var cell9 = document.getElementById("cell9");
+var user = 0;
+
+cell1.addEventListener("click", () => {
+  if (user === 0) {
+    cell1.style.backgroundImage = "url('cross.png')";
+  } else if(user === 1) {
+    cell1.style.backgroundImage = "url('circle.png')";
+  }
+  if(user < 1)
+   {user++;}
+  else if(user = 1) {user--;}
+});
+cell2.addEventListener("click", () => {
+  if (user === 0) {
+    cell2.style.backgroundImage = "url('cross.png')";
+  } else if(user === 1) {
+    cell2.style.backgroundImage = "url('circle.png')";
+  }
+  if(user < 1)
+   {user++;}
+  else if(user = 1) {user--;}
+});
+cell3.addEventListener("click", () => {
+  if (user === 0) {
+    cell3.style.backgroundImage = "url('cross.png')";
+  } else if(user === 1) {
+    cell3.style.backgroundImage = "url('circle.png')";
+  }
+  if(user < 1)
+   {user++;}
+  else if(user = 1) {user--;}
+});
+cell4.addEventListener("click", () => {
+  if (user === 0) {
+    cell4.style.backgroundImage = "url('cross.png')";
+  } else if(user === 1) {
+    cell4.style.backgroundImage = "url('circle.png')";
+  }
+  if(user < 1)
+   {user++;}
+  else if(user = 1) {user--;}
+});
+cell5.addEventListener("click", () => {
+  if (user === 0) {
+    cell5.style.backgroundImage = "url('cross.png')";
+  } else if(user === 1) {
+    cell5.style.backgroundImage = "url('circle.png')";
+  }
+  if(user < 1)
+   {user++;}
+  else if(user = 1) {user--;}
+});
+cell6.addEventListener("click", () => {
+  if (user === 0) {
+    cell6.style.backgroundImage = "url('cross.png')";
+  } else if(user === 1) {
+    cell6.style.backgroundImage = "url('circle.png')";
+  }
+  if(user < 1)
+   {user++;}
+  else if(user = 1) {user--;}
+});
+cell7.addEventListener("click", () => {
+  if (user === 0) {
+    cell7.style.backgroundImage = "url('cross.png')";
+  } else if(user === 1) {
+    cell7.style.backgroundImage = "url('circle.png')";
+  }
+  if(user < 1)
+   {user++;}
+  else if(user = 1) {user--;}
+});
+cell8.addEventListener("click", () => {
+  if (user === 0) {
+    cell8.style.backgroundImage = "url('cross.png')";
+  } else if(user === 1) {
+    cell8.style.backgroundImage = "url('circle.png')";
+  }
+  if(user < 1)
+   {user++;}
+  else if(user = 1) {user--;}
+});
+cell9.addEventListener("click", () => {
+  if (user === 0) {
+    cell9.style.backgroundImage = "url('cross.png')";
+  } else if(user === 1) {
+    cell9.style.backgroundImage = "url('circle.png')";
+  }
+  if(user < 1)
+   {user++;}
+  else if(user = 1) {user--;}
+});

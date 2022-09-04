@@ -21,9 +21,6 @@
     border-radius: 30px;
     display: grid;
 }
-.cell {
-  
-}
   .board {
     width: 320px;
     height: 320px;
